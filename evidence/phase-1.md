@@ -4,7 +4,7 @@ Status: **Local implementation verified; hosted setup pending**
 
 ## Local validation
 
-- Commit SHA: pending initial commit
+- Sanitized public commit SHA: `68416deaae1e`
 - Secret scan: passed
 - Lint: passed with zero warnings
 - Type check: passed in strict mode

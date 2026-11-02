@@ -38,4 +38,4 @@ See [docs/PHASE_1_DEPLOYMENT.md](./docs/PHASE_1_DEPLOYMENT.md) for hosted setup 
 - CI runs a repository secret-pattern detector before lint, type-check, and tests.
 - The production dependency audit currently contains no known vulnerabilities.
 
-Planning and calibration documents are in `phase-0/`. They contain rounded financial configuration but no account/card numbers or credentials.
+Owner-specific planning and calibration documents are stored locally in `phase-0/` and intentionally excluded from the public repository. They are never deployed with the application.
