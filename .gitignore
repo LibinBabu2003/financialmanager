@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Test output
+coverage/
+playwright-report/
+test-results/
+
+# Local environment files. Keep only the documented empty template.
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# Logs and debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local database dumps and financial exports
+*.dump
+*.sql.gz
+*.backup
+exports/
+backups/
+
+# Owner-specific financial calibration stays outside the public repository.
+phase-0/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
